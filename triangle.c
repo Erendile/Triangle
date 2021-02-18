@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define SIZE 11
 
 int main()
 {
-    for(int i = 1, j = 1; i < 11, j < 11; i++)
+    for(int i = 1, j = 1; i < SIZE, j < SIZE; i++)
     {
         printf("*");
         if(i % j == 0)
@@ -11,6 +12,7 @@ int main()
     }
     return 0;
 }
+
 /*
 output:
 *
